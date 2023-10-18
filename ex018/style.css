@@ -1,0 +1,35 @@
+@charset "UTF-8";
+ body {
+    background-color: brown;
+    font-family: sans-serif;
+    /*
+    medidas absolutas
+    cm, mm, in, px, pt, pc
+
+    medidas relativas
+    em, ex, rem, vw, vh, %
+    16px geramente = 1em
+    */
+    font-size: 1em ;
+    font-weight: 400;
+    font-style:italic ;
+    
+    /* lighter, normal, bold, bolder */
+}
+
+ h1 {
+    /*
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+    text-decoration: underline;
+    */
+    /* shorthand font
+    - font style -> font weight -> font size -> font family */
+    font: italic bolder 3em 'times new roman' ; 
+ }
+
+h2 {
+    font: bold 2em 'times new roman';
+}

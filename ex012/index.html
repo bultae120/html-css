@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em HTML5</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplimsmete aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagenP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagenM.png" type="image/png">
+        <img src="imagens/imagenG.png" alt="imagen flexivel">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio em HTML5</p>
+    <audio src="midia/linkin-park.mp3" controls autoplay></audio>
+    <!--MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/linkin-park.mp3" type="linkin-park.mp3">
+        <source src="midia/linkin-park.wav" type="linkin-park.wav">
+        <source src="midia/linkin-park.mogg" type="linkin-park.ogg">
+        <p>desculpe seu navegador nao consegue reproduzir audio. <a href="midia/linkin-park.mp3">clique aqui</a> para baixar o arquivo mp3</p>
+    </audio>
+
+    
+</body>
+</html>

@@ -1,0 +1,5 @@
+Paleta de cores - https://color.adobe.com/pt/explore
+Fontes - https://www.w3schools.com/cssref/css_websafe_fonts.php - fonts.google.com - https://www.dafont.com/pt/
+descobrir fonts - https://www.fontsquirrel.com/matcherator - https://www.myfonts.com/ - https://www.whatfontis.com/
+icones - https://erikasarti.com/html/tabela-cores/
+simbolos para listas e ancoragem - https://emojipedia.org/search?q=check
